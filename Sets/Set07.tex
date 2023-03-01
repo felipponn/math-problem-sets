@@ -1,0 +1,99 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Lista Especial de Problemas 7}
+\author{Jeferson Almir}
+\date{}
+
+% 26
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+    \item Ana e Beatriz jogam um jogo com $n$ peças.
+    Ana joga primeiro, e elas jogam então alternadamente.
+    A cada jogada, uma jogadora toma para si uma peça
+    ou uma quantidade igual a um divisor primo da quantidade atual de peças.
+    A jogadora que tomar a última peça ganha.
+    Para quais $n$ Ana tem uma estratégia vencedora?
+    
+    \item Ana e Beatriz joga um jogo com $n>2$ pilhas,
+    inicialmente cada uma consistindo de uma única moeda.
+    As jogadoras jogam alternadamente, com Ana sendo a primeira.
+    A cada turno, uma jogadora escolhe duas pilhas contendo quantidades de moedas primas entre si,
+    e une-as numa única pilha.
+    A jogadora que não puder jogar perde o jogo.
+    Para cada $n$, determine a jogadora com uma estratégia vencedora.
+    
+    \item Pedro e Beto jogam um jogo com 11 pilhas de 10 pedras cada.
+    Pedro começa jogando, e eles jogam então alternadamente.
+    Em seu turno, Pedro deve tomar para si 1, 2 ou 3 pedras de qualquer uma pilha.
+    Em seu turno, Beto deve tomar uma pedra de 1, 2 ou 3 pilhas.
+    Aquele que tomar a última pedra é o vencedor.
+    Quem tem uma estratégia vencedora?
+    
+    \item Dois jogadores tomam turnos escrevendo símbolos em quadrados vazios de um tabuleiro $1\times n$,
+    onde $n$ é um inteiro maior que $1$.
+    Arão sempre escreve o símbolo X,
+    e Gabi sempre escreve o símbolo O.
+    Dois símbolos iguais nunca devem ocupar quadrados adjacentes.
+    Um jogador que não puder fazer sua jogado é declarado perdedor.
+    Se Arão é o primeiro a jogar,
+    quem tem uma estratégia vencedora?
+    
+    \item Alice e Breno jogam um jogo num tabuleiro $1\times (n+2)$.
+    Para começar o jogo,
+    Alice posiciona uma moeda em qualquer um dos $n$ quadrados interiores.
+    Em sua vez, Breno escolhe um inteiro positivo $k$.
+    Alice então deve a moeda para o $k$-ésimo quadrado à direita ou à esquerda da sua posição atual.
+    Se a moeda acaba fora do tabuleiro, Alice vence.
+    Se a moeda para num dos extremos do tabuleiro, Breno vence.
+    Se a moeda para num outro quadrado interior, o jogo continua.
+    Para quais valores de $n$ Breno tem uma estratégia vencedora num número finito de turnos?
+    
+    \item Alice e Breno jogam um jogo na reta real.
+    Para começar o jogo, Alice posiciona um grão de areia num número $x$ tal que $0<x<1$.
+    A cada turno, Breno escolhe um número positivo $d$.
+    Alice então deve mover o grão para $x+d$ ou $x-d$.
+    Se o grão para em $0$ ou $1$, Breno vence.
+    Senão, o jogo procede para o próximo turno.
+    Para quais valores de $x$ Breno tem uma estratégia que o permite vencer num número finito de turnos?
+    
+    \item Num tabuleiro $8\times 8$, as linhas são numeradas de 1 a 8
+    e as colunas são chamadas por letras de A a H.
+    Num jogo de 2 jogadores neste tabuleiro,
+    o primeiro jogador tem uma torre branca que começa na casa B2,
+    e o segundo jogador tem uma torre preta que começa na casa C4.
+    Os dois alternam turnos movendo suas torres.
+    A cada turno, uma torre vai para uma casa na mesma coluna ou linha da casa inicial.
+    Entretanto, essa nova casa não pode estar sob ataque da outra torre,
+    e nenhuma torre pode ter parado nela anteriormente.
+    O jogador sem uma jogada possível perde o jogo.
+    Qual jogador tem uma estratégia vencedora?
+    
+    \item Num tabuleiro $8\times 8$, há uma torre em cada uma das casas $(A,1)$ e $(C,3)$.
+    Alice começa jogando, seguida por Beto, e então jogam alternadamente.
+    A cada turno, quem joga move uma das torres um número qualquer de casas para cima ou para a direita.
+    A torre não pode ``passar por cima" ou compartilhar casa com a outra torre.
+    O jogador que mover qualquer torre para a casa $(H,8)$ vence.
+    Quem dentre Alice e Beto tem uma estratégia vencedora?
+    
+    \item Ana e Belo jogam um jogo onde Ana joga primeiro e a partir daí eles jogam alternadamente.
+    Em seu turno, Ana escolhe um inteiro.
+    Em seu turno, Belo escreve no quadro branco ou esse número ou a soma de todas os números já escritos.
+    É sempre possível para Ana garantir que em algum momento haverá no quadro 100 vezes escrito o número:
+    
+    \begin{enumerate}
+    \item 5?
+    
+    \item 10?
+    \end{enumerate}
+\end{enumerate}
+
+\end{document}
