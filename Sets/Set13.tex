@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Lista Especial de Problemas 13}
+\author{Jeferson Almir}
+\date{}
+
+% 35
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+    \item Cada um de dez garotos tem 100 cartas.
+    A cada movimento, um deles dá uma carta a cada um dos outros.
+    Qual é a quantidade mínima de movimentos para que cada um tenha uma quantidade diferente de cartas?
+    
+    \item Há 100 pontos no plano.
+    Todas as 4950 distâncias dois a dois são registradas.
+    
+    \begin{enumerate}
+    \item Um único registro é apagado.
+    É sempre possível recuperá-lo usando os outros registros?
+    
+    \item Suponha que não haja três pontos colineares,
+    e que $k$ registros foram apagados.
+    Qual é o valor máximo de $k$ tal que a restauração dos valores apagados é sempre possível?
+    \end{enumerate}
+    
+    \item Cem crianças de alturas distintas ficam em fila.
+    A cada minuto, um grupo de 50 crianças consecutivas é escolhido,
+    e então são reordenados de forma arbitrária.
+    É sempre possível, em seis minutos,
+    ordenar as crianças de forma decrescente de altura?
+    
+    \item Dez crianças de alturas distintas formam uma roda.
+    A cada movimento, uma delas vai para uma nova posição na roda
+    entre outras duas crianças.
+    Qual é a quantidade mínima de movimentos para que sempre possamos
+    ordernar as crianças em ordem crescente de altura?
+    
+    \item Num tabuleiro $8\times 8$, em cada casa está enterrado um tesouro ou uma mensagem.
+    Há apenas uma casa com um tesouro.
+    Uma mensagem indica o número mínimo de passos necessários para ir
+    dessa casa até a casa do tesouro.
+    Cada passo vai de uma casa para outra casa com um lado comum.
+    Qual é a quantidade mínima de casas que devem ser desenterradas
+    para que se descubra o tesouro com certeza?
+    
+    \item Um inteiro $k$ é dado, com $2\leq k\leq50$.
+    Numa roda estão 100 pontos brancos.
+    A cada movimento, escolhemos um bloco de $k$ pontos adjacentes
+    tais que o primeiro e o último são brancos,
+    e pintamos eles de preto.
+    Para quais valores de $k$ é possível pintarmos todos os 100 pontos de preto após 50 movimentos?
+    
+    \item Cem filhotes de urso têm $1,2,\dots,2^{99}$ amoras, respectivamente.
+    Uma raposa escolhe dois filhotes e divide suas amoras igualmente entre eles.
+    Se sobra uma amora, a raposa a come.
+    Qual é a quantidade mínima de amoras que a raposa pode deixar para os filhotes?
+    
+    \item Merlin chama os $n$ cavaleiros de Camelote para uma conferência.
+    A cada dia, ele escolhe cada cavaleiro para uma das $n$ cadeiras da Távola Redonda.
+    A partir do segundo dia, quaisquer dois vizinhos
+    podem trocar de lugar se eles não tiverem sido vizinhos no primeiro dia.
+    Os cavaleiros tentam se sentar em alguma ordem circular que já tenha ocorrido num dia anterior.
+    Se eles conseguirem, então a conferência acaba nesse dia.
+    Qual é o número máximo de dias para o qual Merlin pode garantir que a conferência vai durar?
+    
+    \item Um diretório de computador lista todos os pares de cidades conectadas por voos diretos.
+    Ana hackeia esse computador e permuta os nomes das cidades.
+    Acontece que, qualquer que seja a cidade que seja renomeada Moscou,
+    ela pode renomear as outras cidades para que o diretório continue correto.
+    Depois, Breno faz o mesmo.
+    Entretanto, ele insiste em trocar o nome de Moscou com o de outra cidade.
+    É sempre possível para ele renomear as outras cidades
+    de forma ao diretório continuar correto?
+\end{enumerate}
+
+\end{document}
