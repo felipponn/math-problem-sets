@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Lista Especial de Problemas 17}
+\author{Jeferson Almir}
+\date{}
+
+% 42
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+    \item Um inteiro positivo $n$ é dado. Ana e Bruno tomam turnos marcando pontos num círculo. Ana vai primeiro e usa a cor vermelho enquanto Bruno usa azul. Quando $n$ ponto de cada forem marcados, o jogo acaba, e o círculo é dividido em $2n$ arcos. O ganhador é o jogador com o maior arco em que as duas extremidades sejam de sua cor. Qual jogador pode sempre ganhar, independente de qualquer ação do oponente?
+    
+    \item Um triângulo escaleno é dado. A cada movimento, Ana escolhe um ponto no plano, e Breno decide entre pintá-lo de azul ou vermelho. Ana ganha se obtiver três pontos de mesma cor formando um triângulo semelhante ao dado anteriormente. Qual é o número mínimo de movimentos que Ana precisa fazer para forçar uma vitória, independente do formato do triângulo dado?
+    
+    \item Alice tem um baralho de 36 cartas, 4 naipes de 9 cartas cada. Ela escolhe 18 cartas e dá o resto a Beto. Em cada uma de 18 rodadas, Alice joga uma de suas cartas e então Beto joga uma de suas cartas. Se as duas cartas tiverem mesmo valor ou naipe, Beto ganha um ponto. Qual é a quantidade máxima de pontos ele pode garantir independente das ações de Alice?
+    
+    \item Ana e Breno brincam de um jogo que usa duas mesas redondas com $n$ crianças sentadas em volta de cada uma. Cada criança é melhor amiga de cada vizinha e de nenhuma outra criança. Ana pode fazer duas crianças concordarem em serem melhores amigos, sejam elas da mesma mesa ou não. Ela pode fazer isso com $2n$ pares. Breno pode então fazer $n$ desses pares mudarem de ideia. Ana ganha se as $2n$ crianças podem se sentar numa mesa redonda maior de forma que cada uma seja melhor amiga de ambos seus vizinhos. Para quais $n$ Ana tem uma estratégia vencedora?
+    
+    \item Há $n\ge2$ cidades, cada uma com o mesmo número de habitantes. Inicialmente, cada habitante tem exatamente 1 dólar. Num jogo entre Ana e Breno, turnos se alternam. Ana escolhe um habitante de cada cidade, e Breno redistribui suas riquezas de forma que ao menos um habitante tenha uma quantidade diferente de dólares do que anteriormente.
+    
+    Ana ganha se em cada cidade, há ao menos um habitante sem dinheiro. Qual jogador tem uma estratégia vencedora se o número de habitantes em cada cidade é
+    
+    \begin{enumerate}
+    \item $2n$?
+    
+    \item $2n-1$?
+    \end{enumerate}
+    
+    \item Olga e Max visitam um certo arquipélago com 2009 ilhas. Alguns pares de ilhas se conectam por barcos que fazem ida e volta. Olga escolhe a primeira ilha na qual vão pousar. Então, Max escolhe a próxima ilha que vão visitar. A partir daí, os dois tomam turnos escolhendo uma ilha acessível que não visitaram ainda. Quando chegam numa ilha conectada apenas a ilhas já visitadas, aquele que escolheria a próxima ilha é o perdedor. Olga pode vencer, independente de como Max jogue e independente de como as ilhas são conectadas?
+    
+    \item Há uma fila de $100n$ sanduíches de atum. Um garoto e seu gato tomam turnos alternados, com o gato indo primeiro. Em seu turno, o gato come o atum de um sanduíche de qualquer lugar da fila se há ainda algum atum. Em seu turno, o garoto como o primeiro sanduíche de qualquer extremidade, e continua comendo até tiver comido 100 deles, trocando de extremidade a cada sanduíche. É possível ao garoto garantir que, para todo inteiro positivo $n$, o último sanduíche que ele comer contenha atum?
+    
+    \newpage
+    
+    \item Dentre um grupo de programadores, cada par ou se conhece ou não se conhecem. Onze deles são gênios. Duas empresas os contratam um por vez, alternadamente, e não podem contratar alguém já contratado pela outra empresa. Não há nenhuma condição sobre quais programadores as empresas podem contratar na primeira rodada. A partir daí, uma empresa pode apenas contratar um programador que conhece um programador já contratado por essa empresa. É possível que a empresa que contratou o segundo programador contrate dez dos gênios, independente da estratégia de contratação da outra companhia?
+    
+    \item Dois magos duelam numa altitude de 100 metros acima do mar. Eles lançam feitiços alternadamente, e cada feitiço é da forma ``diminua minha altitude em $a$ metros e em $b$ metros a de meu adversário'', onde $a$ e $b$ são números reais tais que $0<a<b$. Feitiços distintos tem valores distintos para $a$ e $b$. O conjunto de feitiços é o mesmo para os dois magos, e os feitiços podem ser lançados em qualquer ordem, e o mesmo feitiço pode ser lançado múltiplas vezes. Um mago ganha se após algum feitiço, ele ainda está acima da água mas seu rival não. Existe algum conjunto de feitiços tal que o segundo mago possa garantir sua vitória, se o número de feitiços é
+    
+    \begin{enumerate}
+    \item finito?
+    
+    \item infinito?
+    \end{enumerate}
+\end{enumerate}
+
+\end{document}
